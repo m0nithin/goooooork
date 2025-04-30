@@ -542,7 +542,7 @@ button {
 
 .tokenomics {
     padding: 100px 0;
-    background-color: black;
+    background: url("/assets/img/tokenomics/tokenomics-bg.jpg") center bottom no-repeat;
     background-size: cover
 }
 
@@ -1064,12 +1064,17 @@ button {
 }
 
 .ready {
-   background-color: black;
+    background: url("/bg.webp") 25vw top no-repeat, #334131;
     background-position: left;
     position: relative;
     padding: 180px 0
 }
 
+@media screen and (max-width: 1300px) {
+    .ready {
+        background: url("/bg.webp") 10vw top no-repeat, #334131
+    }
+}
 
 .ready__top {
     position: absolute;
